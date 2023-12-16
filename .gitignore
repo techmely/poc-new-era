@@ -1,0 +1,89 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+**/coverage
+bin/
+.cache/
+.temp/*
+.idea/
+.env
+!.env.example
+
+# Vue
+build/
+dist/
+.cache/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+.eslintcache/
+.temp/*
+
+# React
+node_modules/
+build/
+dist/
+.cache/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+.eslintcache/
+.temp/*
+.idea/
+
+# Vite
+node_modules/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+.eslintcache/
+.temp/*
+.idea/
+dist/
+
+# Next.js
+node_modules/
+.next/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+.eslintcache/
+.temp/*
+.idea/
+
+# Nuxt.js
+node_modules/
+.nuxt/
+package-lock.json
+yarn.lock
+.DS_Store
+.nyc_output/
+.eslintcache/
+.temp/*
+.idea/
+
+# Nitro
+
+.nitro
+.output
+
+# macOS
+.DS_Store
+.localized/
+**/.DS_Store
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+
+# Other
+
+.nx

@@ -1,0 +1,20 @@
+{
+  "name": "@techmely-poc/new-era",
+  "license": "MIT",
+  "description": "Place to make thing fun with new era of AI, Blockchain, Quantum, AR, VR...",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "biome check .",
+    "lint.perf": "oxlint -D perf"
+  },
+  "workspaces": ["apps/**", "ai/**", "architecture/**", "tools/**"],
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "husky": "8.0.3",
+    "nx": "17.2.5",
+    "oxlint": "0.0.20",
+    "tsx": "4.6.2"
+  },
+  "packageManager": "yarn@4.0.2"
+}
